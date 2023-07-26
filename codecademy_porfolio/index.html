@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./app.js"></script>
+    <script src="https://kit.fontawesome.com/e7657fd5e3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav>
+      <h1 id="logo">Carolina Reyes</h1>
+      <ul>
+          <li><a class="links" href="#about-me">About Me</a></li>
+          <li><a class="links" href="#projects">Projects</a></li>
+          <li><a class="links" href="#skills">Skills</a></li>
+          <li><a class="links" href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="button">
+      <button id="dark">Dark Mode</button>
+      <button id="light" hidden>Light Mode</button>
+    </section>
+    <main>
+      <section id="about-me">
+        <h2>About Me</h2>
+        <p>I’m a Software Engineer that loves to create and transform something out of nothing. I'm driven to learn, persistent, and I'm passionate about finding different ways to problem solve and trying things outside my comfort zone. This allows me to grow not only as a developer but as a person. My dedication and passion allows me to be trustworthy. I'm enthusiastic about working with clients to provide them an outstanding level of support throughout the process.</p>
+      </section>
+      <section id="projects">
+        <h2>Projects</h2>
+        <details class="project">
+          <summary class="project-title">
+            Tic Tac Toe
+          </summary>
+          <p class="project-details">This is a friendly game of Tic Tac Toe</p>
+          <img src="./images/tic-tac-toe.png" alt="tic-tac-toe" class="project-img">
+        </details>
+
+        <details class="project">
+          <summary class="project-title">
+            Work Out Log
+          </summary>
+          <p class="project-details">This a workout log that will helps log workouts.</p>
+          <img src="./images/workout-tracker.png" alt="Workout Tracker" class="project-img">
+        </details>
+
+        <details class="project">
+          <summary class="project-title">
+            Portfolio
+          </summary>
+          <p class="project-details">This is a portfolio project.</p>
+          <img src="./images/portfolio.png" alt="Portfolio" class="project-img">
+        </details>
+      </section>
+
+      <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill-logos">
+          <i class="fa-brands fa-html5 fa-2xl"></i>
+          <i class="fa-brands fa-css3-alt fa-2xl"></i>
+          <i class="fa-brands fa-js fa-2xl"></i>
+          <i class="fa-brands fa-react fa-2xl"></i>
+          <i class="fa-brands fa-node fa-2xl"></i>
+          <i class="fa-solid fa-database fa-2xl"></i>
+        </div>
+      </section>
+
+    </main>
+    <footer>&copy Carolina Reyes 2023</footer>
+</body>
+</html>
